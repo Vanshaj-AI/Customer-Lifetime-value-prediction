@@ -6,8 +6,11 @@ The dataset for this project is available on Kaggle, provided by Brazillian E-co
 
 <h2>Terminology Alert!</h2>
 
-- <b>Customer Acquition Cost</b> - Customer acquition cost refers to the estimated resources and cost a company needs to spend on marketing and other methods to acquire an additional customer. 
-
+- <b>Customer Acquition Cost</b> - Customer acquition cost refers to the estimated resources and cost a company needs to spend on marketing and other methods to acquire an additional customer.
+- <b>Purchase Frequency</b> - is determined by calculating the proportion of the total number of orders placed by customers against the total number of customers.
+- <b>Churn Rate</b> - It denotes the percentage of customers who have discontinued their association with the business.
+- <b>Customer Lifespan</b> - It refers to the duration for which a customer has been consistently placing orders.
+- <b>Repeat Rate</b> - is calculated by comparing the number of unique customers to the number of customers who have made more than one purchase.
 
 
 
