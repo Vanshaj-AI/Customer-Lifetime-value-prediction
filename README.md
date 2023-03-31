@@ -89,9 +89,11 @@ Overall, it is important to choose the most appropriate method for calculating C
 
 <h2>Program walk-through:</h2>
 <p align="center">
-Launch the utility: <br/>
+Load the Dataset: <br/>
 <img src="https://live.staticflickr.com/65535/52783488903_5d2930b6ec_k.jpg" height="80%" width="80%" alt="CLTV Steps"/>
 <br />
+<p align="left">
+After loading the data, we see that the data is stored in various individual tables. We will create a dataset using the relevant columns and removing any columns which have too much overlap with other columns.
 
 <!--
 
