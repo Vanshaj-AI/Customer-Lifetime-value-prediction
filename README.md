@@ -73,7 +73,7 @@ Overall, it is important to choose the most appropriate method for calculating C
 
 <h2>Languages and Modules Used</h2>
 
-- <b>Pandas</b> 
+- <b>Pandas</b>
 - <b>NumPy</b>
 - <b>Matplotlib</b> 
 - <b>Seaborn</b> 
@@ -93,14 +93,25 @@ Load the Dataset: <br/>
 <img src="https://live.staticflickr.com/65535/52783488903_5d2930b6ec_k.jpg" height="80%" width="80%" alt="CLTV Steps"/>
 <br />
 <p align="left">
-After loading the data, we see that the data is stored in various individual tables. We explore the overview of these datasets using df.describe(), df.info() and other similar functions. We also define a function to get important information about the dataset like number of unique values, datatype, percentage of missing values and percentage of values in the biggest category.
-After exploring the datasets individually, we aggregate all the relevant and important columns and make one final dataset.
-Once the dataset is ready, we can move ahead with exploring the data and performing Data Preprocessing and EDA operations to get the dataset ready for ML modelling.
+Source = https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+
+After loading the data, we see that the data is stored in various individual tables. We explore the overview of these datasets using df.describe(), df.info(), and other similar functions. We also define a function to get important information about the dataset like the number of unique values, datatype, percentage of missing values, and percentage of values in the biggest category.
+Once the dataset is ready, we can explore the data and perform Data Preprocessing and EDA operations to get the dataset ready for ML modeling.
 
 <p align="center">
-Exploring the Dataset using self defined function: <br/>
+Exploring the Dataset using a self-defined function: <br/>
 <img src="https://live.staticflickr.com/65535/52789905883_031651562c_b.jpg" height="80%" width="80%" alt="CLTV Steps"/>
 <br />
+<p align="left">
+After understanding the data of several different datasets, now we aim to perform Data Preprocessing to remove missing values, create new features and create one final dataset with all the important and relevant columns required for ML Modeling.
+
+<p align="center">
+EDA and Visualization - <br />
+After preprocessing, we visualize the data to get a better idea about it. We use time graphs to plot relevant data.
+<img src="https://live.staticflickr.com/65535/52789025372_176ac6ab9b_b.jpg" height="80%" width="80%" alt="CLTV Steps"/>
+
+
 
 <!--
 
@@ -118,7 +129,7 @@ Confirm your selection:  <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+Wait for the process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
