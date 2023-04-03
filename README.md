@@ -93,7 +93,14 @@ Load the Dataset: <br/>
 <img src="https://live.staticflickr.com/65535/52783488903_5d2930b6ec_k.jpg" height="80%" width="80%" alt="CLTV Steps"/>
 <br />
 <p align="left">
-After loading the data, we see that the data is stored in various individual tables. We will create a dataset using the relevant columns and removing any columns which have too much overlap with other columns.
+After loading the data, we see that the data is stored in various individual tables. We explore the overview of these datasets using df.describe(), df.info() and other similar functions. We also define a function to get important information about the dataset like number of unique values, datatype, percentage of missing values and percentage of values in the biggest category.
+After exploring the datasets individually, we aggregate all the relevant and important columns and make one final dataset.
+Once the dataset is ready, we can move ahead with exploring the data and performing Data Preprocessing and EDA operations to get the dataset ready for ML modelling.
+
+<p align="center">
+Exploring the Dataset using self defined function: <br/>
+<img src="https://live.staticflickr.com/65535/52789905883_031651562c_b.jpg" height="80%" width="80%" alt="CLTV Steps"/>
+<br />
 
 <!--
 
